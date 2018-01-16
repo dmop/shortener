@@ -32,7 +32,7 @@ exports.createShort = function (req, res) {
 
 exports.redirectUrl = function (req, res) {
 
-    Link.find({ hash: req.params.hash }, function (err, data) {
+    Link.findOne({ "hash": req.params.hash }, function (err, data) {
         if (err) {
             res.status(500).send({ message: "Could not retrieve link with id " + req.params.hash });
         } else {

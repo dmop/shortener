@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb://localhost:27017/links'
+    url: 'mongodb://admin:123@ds149481.mlab.com:49481/mydbismine'
 }
