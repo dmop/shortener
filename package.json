@@ -1,0 +1,27 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "Nodejs App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "dmop",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.7"
+  },
+  "devDependencies": {}
+}
